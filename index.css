@@ -1,127 +1,49 @@
 body {
-  background: #2d8199;
+  background: #bec2c4;
   min-height: 100vh;
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.glass-box {
-  height: 80vh;
-  width: 60vh;
-  background: #f7f8f9;
-  align-items: center;
-  text-align: center;
-  overflow: hidden;
-  border-radius: 10px;
-}
-.absolute-box {
+.title {
+  background-color: rgb(67, 63, 63);
+  color: white;
+  height: 75px;
   display: flex;
 }
-.top-box {
-  background-color: #61dafb;
-  height: 210px;
-  width: 60vh;
-  border-radius: 10px 10px 0px 0px;
-  padding-top: 60px;
-  position: absolute;
-}
-.img-border-div {
-  background-color: #f7f8f9;
-  position: relative;
-  height: 220px;
-  width: 220px;
-  margin-top: 160px;
-  margin-left: 180px;
-  display: flex;
-  border-radius: 50%;
+.title-name {
+  margin-left: 50px;
 }
 .body_ {
-  margin-top: 350px;
-  background-color: #f7f8f9;
-  height: 40vh;
-}
-.img-div {
-  margin: auto;
-  border-radius: 50%;
-  object-fit: contain;
-}
-.img-div_ {
-  height: 200px;
-  width: 200px;
-  border-radius: 60%;
+  background-color: aliceblue;
+  width: 700px;
+  height: 75%;
+  display: flex;
 }
 .card {
-  margin-left: 50px;
-  margin-right: 50px;
-  gap: 10px;
-  align-items: flex-start;
+  margin-top: 10px;
 }
-h1 {
-  font-size: calc(15px + 2vmin);
-  margin-top: 60px;
+.slack_img {
+  margin-top: -9px;
 }
-h3 {
-  align-items: auto;
-  margin-top: 30px;
-  display: grid;
+.img-div {
+  display: flex;
+  margin-bottom: 40px;
+  margin-left: 20px;
+}
+.info {
+  margin-left: 20px;
+
+}
+.img-div_ {
+  height: 450px;
+  width: 450px;
+}
+h2 {
+  margin-left: 20px;
+  /* margin-top: 20px; */
 }
 a {
   text-decoration: none;
-  color: black;
-}
-a:hover {
-  color: rgb(4, 119, 213);
-}
-
-@media all and (max-width: 500px) {
-  body {
-    align-items: center;
-    overflow: hidden;
-  }
-  .top-box {
-    width: 95.6vw;
-    height: 15vh;
-  }
-  .img-border-div {
-    position: relative;
-    height: 150px;
-    width: 150px;
-    margin-top: 110px;
-    margin-left: 110px;
-  }
-  .body_ {
-    margin-top: 250px;
-    height: 0px;
-  }
-  .img-div_ {
-    height: 130px;
-    width: 130px;
-    border-radius: 60%;
-  }
-  .card {
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 50px;
-    gap: 0px;
-    align-items: flex-start;
-  }
-  h3 {
-    align-items: auto;
-    margin-top: 10px;
-    display: grid;
-  }
-  h1 {
-    font-size: calc(19px + 2vmin);
-    margin-top: 50px;
-  }
-}
-@media (max-width: 375px) {
-    .card {
-        margin-left: 50px;
-        margin-right: 50px;
-        margin-top: 30px;
-        gap: 0px;
-        align-items: flex-start;
-      }
 }

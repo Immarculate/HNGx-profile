@@ -15,4 +15,4 @@ const currentDate = new Date();
 
   const time = Date.now();
   document.getElementById("demo").innerHTML += time;
-  setInterval(addZero, 1000);
+  setInterval(addZero,1000);
